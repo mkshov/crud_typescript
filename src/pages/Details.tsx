@@ -15,6 +15,7 @@ export default function Details() {
   const { getOneProduct, deleteProduct, oneProduct } = context;
 
   const { id } = useParams();
+  // sdsd
 
   useEffect(() => {
     console.log("changed");
