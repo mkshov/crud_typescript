@@ -24,6 +24,7 @@ export default function Details() {
   if (!oneProduct) {
     return <h1>Загрузка...</h1>;
   }
+  // hello
 
   function handleDelete() {
     deleteProduct(id);
